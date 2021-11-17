@@ -19,7 +19,14 @@ a:hover{
     opacity: 1;
 }
 
-/* Geral da pagina */
+.bg{
+    background: url('../images/bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+    
+}
+
+/* HEADER */
 
 .logo{
     font-size: 18px;
@@ -36,12 +43,7 @@ nav{
     height: 8vh;
 }
 
-main{
-    background: url('../images/bg.jpg') no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-    
-}
+
 
 .nav-list{
     display: flex;
@@ -92,6 +94,7 @@ main{
     .mobile-menu{
         display: block;
     }
+
 }
 
 .nav-list.active{
@@ -118,4 +121,54 @@ main{
 
 .mobile-menu.active .line3{
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* CONTAINERES */
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(0, 0, 0, 30%);
+}
+
+.container .cabecalho{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container .cabecalho .logo-session{
+    font-size: 36px;
+    font-family: 'Rye', cursive;
+    padding-top: 40px;
+}
+
+.container .cabecalho .sub-titulo-inicial{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* MODAL */
+
+.sub-titulo{
+    color: black;
+}
+
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    max-width: 500px;
 }

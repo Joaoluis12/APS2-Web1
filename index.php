@@ -17,14 +17,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Rye&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
-    <title>Hamburguer João</title>
+    <title>J.Burguer - Hamburguer João</title>
 </head>
 <body>
 
 <?php include('pages/menu.html');?>
 
-<main></main>
-   
+<main class="bg">
+<section class="container">
+    <div class="cabecalho">
+        <h1 class="logo-session">J.Burguer</h1>
+        <h3 class="sub-titulo-inicial">Hamburguer levado a sério</h3>
+    </div>
+    <div class="principais-produtos">
+        <h3>Principais escolhas</h3>
+    </div>
+</section>
+
+
+
+
+
+</main>
+<footer>
+
+</footer>
+<?php include('pages/modal_login.html') ?>  
+
 <script src="js/mobile-navbar.js"></script>
 </body>
 </html>
