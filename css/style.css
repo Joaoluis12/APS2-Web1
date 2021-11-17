@@ -39,7 +39,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(90, 52, 3);
+    background: rgb(92, 53, 3);
     height: 8vh;
 }
 
@@ -150,6 +150,7 @@ nav{
 /* MODAL */
 
 .sub-titulo{
+    letter-spacing: 1.5px;
     color: black;
 }
 
@@ -167,8 +168,29 @@ nav{
 }
 
 .modal{
-    background: white;
+    position: relative;
+    background: rgb(212, 212, 212);
     width: 60%;
     min-width: 300px;
     max-width: 500px;
+    padding: 40px;
+    border: 5px solid rgb(92, 53, 3);;
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px rgb(212, 212, 212);
+}
+
+.fechar-modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid rgb(212, 212, 212);
+    background:rgb(92, 53, 3);
+    color:whitesmoke;
+    font-size: 1.4em;
+    font-family: monospace;
+    cursor: pointer;
+    box-shadow: 0 2px 1px rgba(0,0,0,.5);
 }
