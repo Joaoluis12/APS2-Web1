@@ -7,6 +7,9 @@
 body{
     font-family: 'Gowun Dodum', sans-serif;
     background: black;
+    background: url('../images/bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 92vh;
 }
 
 a{
@@ -16,17 +19,10 @@ a{
 }
 
 
-
 a:hover{
     opacity: 1;
 }
 
-.bg{
-    background: url('../images/bg.jpg') no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-    
-}
 
 /* HEADER */
 
@@ -226,4 +222,60 @@ nav{
     font-family: monospace;
     cursor: pointer;
     box-shadow: 0 2px 1px rgba(0,0,0,.5);
+}
+
+/*Formulario cadastro*/
+
+.container-form{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: rgba(85, 63, 18, 0.9);
+    color: whitesmoke;
+}
+
+.container-form .form-titulo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.container-form .grupo{
+    display: flex;
+    letter-spacing: 1px;
+    padding: 8px
+}
+
+.container-form .campo{
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.container-form .campo input[type="text"], input[type="email"], input[type="password"], textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    border-radius: 5px;
+}
+
+.container-form .campo-senha{
+    display: grid;
+    margin-left: 30%;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: black;
+    border: 1;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    left: 40%;
+    margin-top: 10px;
 }
