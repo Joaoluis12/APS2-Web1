@@ -6,7 +6,13 @@
 
 
 
-Esse é  um trabalho de APS para a aula de Desenvolvimento WEB 2 ::page_facing_up:
+Esse é um projeto em andamento para a faculdade de uma hamburgueria. ::page_facing_up:
 
-Unisuam - Ciência da Computação - 2021.02
+Nesse projeto, usei:
+- Flexbox
+- CSS Responsivo
+- Container e Modais
+- HTML e CSS puro, sem frameworks
+
+
 
